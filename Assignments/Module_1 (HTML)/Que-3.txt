@@ -1,0 +1,17 @@
+Que.-> What are void elements in HTML? With Example.
+
+Ans.-> All the elements in HTML do not require to have start tag and end tag, some elements does not have content and end tag such elements are known as Void elements or empty elements. These elements are also called as unpaired tags.
+
+    -> List of void elements or unpaired tags,
+        <br>
+        <hr>
+        <p>
+        <img>
+        <input>
+        <meta>
+        <link>
+        Where, <p> tag is also known as paired tag. (<p> </p>)
+
+    -> Ex. <p>Some content above 
+    <hr> 
+    Some content below.</p>

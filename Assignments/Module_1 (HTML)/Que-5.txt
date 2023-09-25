@@ -1,0 +1,44 @@
+Que.-> What are different types of lists in HTML? With Example.
+
+Ans.-> HTML provides several types of lists that you can use to organize and present information on web pages.
+
+Types of list:
+    1. Ordered List:
+    -> Ordered lists are used for items that have a specific order or sequence.
+    -> Each list item is automatically numbered by default, typically with Arabic numerals (1, 2, 3, etc.).
+    -> You can customize the numbering style using CSS.
+    -> Ex. <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+
+    2. Unordered List:
+    -> Unordered lists are used for items that don't have a specific order or sequence.
+    -> Each list item is typically represented with a bullet point by default.
+    -> You can customize the bullet style using CSS.
+    -> Ex. <ul>
+                <li>Apples</li>
+                <li>Bananas</li>
+                <li>Oranges</li>
+            </ul>
+
+    3. Nested List:
+    -> You can nest lists inside other lists to create more complex list structures.
+    -> For example, you can nest an ordered or unordered list within a list item of another list.
+    -> Ex. <ol>
+            <li>Fruits</li>
+            <ul>
+                <li>Apples</li>
+                <li>Bananas</li>
+                <li>Oranges</li>
+            </ul>
+         <li>Vegetables</li>
+            <ul>
+                <li>Carrots</li>
+                <li>Spinach</li>
+                <li>Tomatoes</li>
+            </ul>
+            </ol>
+
+

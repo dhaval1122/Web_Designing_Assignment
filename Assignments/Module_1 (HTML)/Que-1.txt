@@ -1,0 +1,15 @@
+Que.-> Are the HTML tags and elements the same thing?
+
+Ans.-> No, HTML tags and elements are related concepts but they are not exactly the same thing.
+
+1.HTML Tags:
+
+   -> HTML tags are the markup characters used to define the structure of an HTML document.
+   -> They are enclosed within angle brackets "<" and ">".
+   -> Tags are used to define elements and provide information about how content should be displayed or structured in a web page.
+
+2.HTML Elements:
+
+   -> An HTML element is defined by a start tag, some content, and an end tag.
+   -> Elements are created by enclosing content within matching pairs of opening and closing tags.
+   -> Ex. <p>This is a paragraph element.</p>

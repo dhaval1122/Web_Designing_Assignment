@@ -1,0 +1,17 @@
+Que.-> What are HTML Entities? With Example.
+
+Ans.-> HTML entities are special codes or character references used to represent reserved characters and symbols in HTML documents.
+
+    -> These reserved characters and symbols include characters that have special meanings in HTML, such as angle brackets (< and >), ampersands (&), etc.
+    -> HTML entities are written using the ampersand (&) followed by a specific code or name, and then closed with a semicolon (;).
+    -> Here are some examples of HTML entities:
+        &lt; represents the less-than sign <.
+        &gt; represents the greater-than sign >.
+        &amp; represents the ampersand &.
+        &quot; represents the double quote "
+        &nbsp; represents the non-breaking space.
+
+    -> Example of emojis: <h1> &#128515 &#128509 &#128519 </h1>
+
+    -> Example of non-breaking space: <h1> Dhaval&nbsp;Thakkar </h1> 
+        Output: Dhaval Thakkar 

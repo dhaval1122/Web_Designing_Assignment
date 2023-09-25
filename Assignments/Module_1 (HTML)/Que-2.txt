@@ -1,0 +1,18 @@
+Que.-> What are tags and attributes in HTML?
+
+Ans.->  Tags and attributes are fundamental components used to structure and define web documents.
+
+1.HTML Tags:
+
+    -> HTML tags are used to define elements within an HTML document. Tags are enclosed within angle brackets "<" and ">".
+    -> The content to be affected by the tag is placed between these opening and closing tags.
+    -> Ex. <html></html>
+           <title></title>
+           <body></body>
+
+2.HTML Attributes:
+
+    -> HTML attributes are additional information or properties that can be added to HTML tags.
+    -> Attributes provide extra details about an element, such as its appearance, behavior, or relationship to other elements.
+    -> Ex. <img src="images/abc.jpg"> 
+        The <img> is a tag and "src" is the attribute specifies the path to the image to be displayed.
