@@ -1,0 +1,54 @@
+<!-- Que.-> How can we club two or more rows or columns into a single row or column in an HTML table? With Example. -->
+
+<!-- Ans.-> In HTML, you can merge two or more adjacent rows or columns into a single row or column using the rowspan and colspan attributes. These attributes are applied to specific <td> (table cell) elements within the table to define how many rows or columns they should span. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <table align="center" border="2" cellspacing="5" cellpadding="5" width="50%">
+
+        <tr>
+            <caption><b>Example of rowspan</b></caption>
+        </tr>
+        <!-- Merging Rows using rowspan -->
+            <tr align="center">
+              <td rowspan="3">Dhaval</td>
+              <td>Dhaval</td>
+            </tr>
+            <tr align="center">
+              <td>Dhaval</td>
+            </tr>
+            <tr align="center">
+              <td>Dhaval</td>
+            </tr>
+
+    </table>
+
+    <table align="center" border="2" cellspacing="5" cellpadding="5" width="50%" style="margin-top: 3%;">
+       
+        <tr>
+            <caption><b>Example of colspan</b></caption>
+        </tr>
+        <!-- Merging columns using colspan -->
+        <tr align="center"> 
+          <td colspan="4">Dhaval</td>
+        </tr>
+        <tr align="center">
+          <td>Dhaval</td>
+          <td>Dhaval</td>
+          <td>Dhaval</td>
+          <td>Dhaval</td>
+        </tr>
+      </table>
+    
+</body>
+</html>

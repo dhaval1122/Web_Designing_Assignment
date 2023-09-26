@@ -1,0 +1,33 @@
+Que.-> How is Cell Padding different from Cell Spacing? With Example.
+
+Ans.-> Cell padding and cell spacing are attributes used in HTML tables to control the space around the content within table cells and the space between cells.
+
+1. Cell Padding:
+
+    -> Cell padding controls the space between the content of a table cell and the cell's borders.
+    -> It is specified using the cellpadding attribute within the <table> element.
+    -> Ex. <html>
+            <body>
+                <table border="1" cellpadding="10">
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                    </tr>
+                </table>
+            </body>
+        </html>
+
+2. Cell Spacing:
+
+    -> Cell spacing controls the space between adjacent cells in a table.
+    -> It is specified using the cellspacing attribute within the <table> element.
+    -> Ex. <html>
+            <body>
+                <table border="1" cellspacing="12">
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                    </tr>
+                </table>
+            </body>
+        </html>

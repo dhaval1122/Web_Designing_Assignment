@@ -1,0 +1,16 @@
+Que.-> What are the various formatting tags in HTML?
+
+Ans.-> HTML provides various formatting tags that allow you to control the visual presentation of your content.
+
+    -> List of some various formatting tags:
+    1. <b> : Used to make text bold.
+    Ex. <b>This is bold text.</b>
+
+    2. <i> : Used to make text italic.
+    Ex. <i>This is italic text.</i>
+
+    3. <u> : Used to underline text.
+    Ex. <u>This text is underlined.</u>
+
+    4. <mark> : Used to highlight text with a yellow background.
+    Ex. <mark>This text is highlighted.</mark>

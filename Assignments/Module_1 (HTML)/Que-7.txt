@@ -1,0 +1,18 @@
+Que.-> What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? With Example.
+
+Ans.-> The 'id' and 'class' attributes in HTML are used to provide additional information to elements, particularly for styling with CSS and for JavaScript manipulation.
+
+    -> The only difference between them is that 'id' is unique in a page and can only apply to at most one element, while 'class' selector can apply to multiple elements.
+
+    1. id attribute:
+
+    -> The 'id' attribute is used to uniquely identify a single HTML element on a page. It must be unique within the entire HTML document. No two elements should have the same 'id' value.
+    -> It is often used when you want to apply specific styles or JavaScript actions to a particular element.
+    -> Ex. <p id="unique-paragraph">This is a unique paragraph.</p>
+
+    2. class attribute:
+
+    -> The 'class' attribute is used to apply a specific class or group identifier to one or more HTML elements. Multiple elements can share the same class attribute.
+    -> It is typically used for styling multiple elements in a consistent manner or for JavaScript operations that need to target a group of elements.
+    -> Ex. <p class="info-paragraph">This is a paragraph.</p>
+           <p class="info-paragraph">This is another paragraph.</p>
