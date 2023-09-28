@@ -1,0 +1,3 @@
+Que.-> What is the use of an iframe tag? With Example.
+
+Ans.-> The <iframe> tag in HTML is used to embed another HTML document or web page within the current HTML document. It allows you to display external content from another source, such as a different website, inside a designated area of your web page. This is commonly used for displaying maps, videos, external web pages, and other content within a web page.
