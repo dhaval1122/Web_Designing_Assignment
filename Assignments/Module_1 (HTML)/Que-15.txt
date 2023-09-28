@@ -1,0 +1,56 @@
+Que.-> How to insert a picture into a background image of a web page? With Example.
+
+Ans.-> To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property.
+
+    -> You can also specify the background image in the <style> element, in the <head> section
+
+    -> Ex. <style>
+p {
+  background-image: url('images/img.jpg');
+}
+</style>
+
+    -> If you want the entire page to have a background image, you must specify the background image on the <body> element
+
+    -> Ex. <style>
+body {
+  background-image: url('images/img.jpg');
+}
+</style>
+
+Here is the full example of background-image:
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body
+        {
+            <!-- To avoid the background image from repeating itself, set the background-repeat property to no-repeat. -->
+            background: url('images/background.jpg') no-repeat;
+            <!-- If you want the background image to cover the entire element, you can set the background-size property to cover. -->
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div style="width: 55%; height: auto; float: left; margin-top: 3%;">
+        <form style="margin-left: 15%; width: 50%;">
+        <h1 style="color: white;">Contact us form</h1>
+        <hr style="width: 70%; margin-left: 0%;">
+        <br>
+        <input type="text" name="name" placeholder="Enter your name *" required style="width: 250px; height: 20px; border: 0; border-bottom: 2px solid; background-color: lightgrey;">
+        <br><br>
+        <input type="text" name="email" placeholder="Enter your email *" required style="width: 250px; height: 20px; border: 0; border-bottom: 2px solid; background-color: lightgrey;">
+        <br><br>
+        <input type="text" name="number" placeholder="Enter your number *" required style="width: 250px; height: 20px; border: 0; border-bottom: 2px solid; background-color: lightgrey;">
+        <br><br>
+        <textarea type="text" name="name" placeholder="Message *" required style="height: 70px; width: 250px; border: 0; border-bottom: 2px solid; background-color: lightgrey;"></textarea>
+        <br><br>
+        <input type="submit" name="submit" value="Send" style="width: 140px; height: 25px; background-color: greenyellow; border: 0;">
+
+        </form>
+    </div>
+</body>
+</html>
