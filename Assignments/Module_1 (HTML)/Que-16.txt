@@ -1,0 +1,9 @@
+Que.-> How are active links different from normal links?
+
+Ans.-> 
+
+    Active Links:
+                An Active link is a hyperlink that is currently being interacted with the user. Whenever the user holds the mouse button on the link and not released yet or if right clicked on it, it will change its color into red, this is when the link will be in active state.
+
+    Normal Links:
+                In HTML, a normal link is a hyperlink that is not yet clicked by the user.The default color is blue color and underlined but you can apply your own custom styling according to the application’s need.
