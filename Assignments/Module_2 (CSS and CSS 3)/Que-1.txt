@@ -1,0 +1,13 @@
+Que.-> What are the benefits of using CSS?
+
+Ans.-> CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, etc.
+
+The following are the benefits of CSS −
+
+1. CSS saves time − You can write CSS once and then reuse the same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.
+
+2. Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
+
+3. Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS. So it's a good idea to start using CSS in all the HTML pages to make them compatible with future browsers.
+
+4. Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.

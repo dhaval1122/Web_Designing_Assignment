@@ -1,0 +1,19 @@
+Que.-> How can the background color of an element be changed?
+
+Ans.-> To change the background color of an HTML element using CSS, you can use the background-color property. Here's how you can do it:
+
+Example: <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="container">
+    This is a div with a custom background color.
+  </div>
+</body>
+</html>
+
+CSS File: .container {
+  background-color: yellow; /* Change the background color to yellow */
+}

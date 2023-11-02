@@ -1,0 +1,10 @@
+Que.-> What is the difference between CSS2 and CSS3?
+
+Ans.->  1. CSS2: CSS2 focused on core styling capabilities, including properties for layout, colors, fonts, and text styling.
+         CSS3: CSS3 is more extensive and modular, introducing a wide range of new features and enhancements that go beyond basic styling, including animations, transitions, transformations, gradients, multiple backgrounds, and more.
+
+      2. CSS2: CSS2 selectors were limited in their capabilities. They supported simple element selectors, class selectors, ID selectors, and contextual selectors.
+         CSS3: CSS3 introduced more advanced and powerful selectors, including attribute selectors, pseudo-classes, and pseudo-elements, providing more fine-grained control over styling elements.
+
+      3. CSS2: CSS2 and basic text styling capabilities.
+         CSS3: CSS3 introduced advanced text effects like text shadows, web fonts, and advanced typography control.

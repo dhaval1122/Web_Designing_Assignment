@@ -1,0 +1,13 @@
+Que.-> Name a few CSS style components
+
+Ans.-> CSS style components, also known as CSS properties, are used to define the visual appearance and layout of elements on a web page. Here are a few commonly used CSS style components:
+
+1.color: Sets the text color of an element. For example, color: blue; makes the text appear in blue.
+
+2.background-color: Determines the background color of an element. For example, background-color: #f0f0f0; sets the background color to a light gray.
+
+3.margin: Controls the space outside of an element. You can set margins for top, right, bottom, and left sides. For example, margin: 10px; sets a 10-pixel margin on all sides.
+
+4.padding: Adjusts the space between an element's content and its border. Similar to margins, padding can be set for individual sides or all sides.
+
+5.position: Specifies how an element is positioned within its containing element. Values include "static," "relative," "absolute," and "fixed."

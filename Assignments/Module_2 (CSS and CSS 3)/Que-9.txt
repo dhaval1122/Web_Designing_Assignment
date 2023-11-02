@@ -1,0 +1,7 @@
+Que.-> Which property controls the image scroll in the background?
+
+Ans.-> The property that controls the scrolling behavior of a background image in CSS is the background-attachment property. It determines whether the background image is fixed in place or scrolls with the content as the user scrolls the web page.
+
+1.scroll (default): This is the default value. The background image scrolls along with the content as the user scrolls the web page.
+
+2.fixed: The background image remains fixed in place, so it does not scroll with the content. It creates a "fixed" background effect, often used for elements like header sections to create a parallax effect.

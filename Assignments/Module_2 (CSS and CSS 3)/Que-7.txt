@@ -1,0 +1,10 @@
+Que.-> How can image repetition of the backup be controlled?
+
+Ans.-> This task can be achieved by using the background-repeat property that will help us to control the repetition of the image.
+
+-> The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+Example: .element {
+  background-image: url('image.jpg'); /* Set your background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
