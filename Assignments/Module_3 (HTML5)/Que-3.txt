@@ -1,0 +1,11 @@
+Que.-> Semantic element in HTML5?
+
+Ans.-> In HTML5, semantic elements are used to provide meaning and structure to the content of a web page, making it more understandable for both browsers and humans. Semantic elements help search engines and assistive technologies interpret and present web content accurately. Here are some of the main semantic elements introduced in HTML5:
+
+    <header>
+    <nav>
+    <main>
+    <section>
+    <details>
+    <mark>
+    <article> etc..

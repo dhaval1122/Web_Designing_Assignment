@@ -1,0 +1,14 @@
+Que.-> What are the new tags added in HTML5?
+
+Ans.-> The following tags have been introduced in HTML5:
+
+        <audio> tag
+        <video> tag
+        <header> tag
+        <footer> tag
+        <progress> tag
+        <mark> tag
+        <nav> tag
+        <section> tag
+        <details> tag
+        <time> tag etc..

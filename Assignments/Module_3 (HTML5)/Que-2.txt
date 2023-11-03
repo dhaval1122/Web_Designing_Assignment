@@ -1,0 +1,24 @@
+Que.-> How to embed audio and video in a webpage?
+
+Ans.-> The HTML5 <audio> and <video> tags make it simple to add media to a website. You need to set src attribute to identify the media source and include a controls attribute so the user can play and pause the media.
+
+Example of embed video:
+<html>
+   <body>
+      
+      <video  width = "300" height = "200" controls>
+         <source src = "video/abcd.mp4" type = "video/mp4" />
+      </video>
+      
+   </body>
+</html>
+
+Example of embed audio:
+<html>
+<body>
+    <h1>My Favourite Songs Playlist</h1>
+    <audio controls>
+        <source src="audio/02 Dil Cheez Tujhe Dedi - Airlift (Arijit Singh n Ankit Tiwari) 320Kbps.mp3">
+    </audio>
+</body>
+</html>
