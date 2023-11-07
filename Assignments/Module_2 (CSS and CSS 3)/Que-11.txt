@@ -1,0 +1,3 @@
+Que.-> How to center block elements using CSS1?
+
+Ans.-> 

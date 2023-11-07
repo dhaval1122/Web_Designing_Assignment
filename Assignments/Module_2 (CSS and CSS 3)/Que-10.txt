@@ -1,0 +1,11 @@
+Que.-> Why should background and color be used as separate properties?
+
+Ans.-> Using separate properties for setting the background and text color in CSS provides several advantages, including:
+
+1.Clarity and Readability: Separating the background and text color properties makes your CSS code more readable and easier to understand. It clearly distinguishes between the styling for the background and the styling for the text, making it easier to maintain and troubleshoot.
+
+2.Modularity: By keeping background and text color as separate properties, you can change one without affecting the other. This modularity allows you to update the design of your website more easily. For example, you might want to change the background color of a section without altering the text color, or vice versa.
+
+3.Design Flexibility: Separating background and text colors allows for greater design flexibility. You can experiment with different color combinations for text and background to achieve the desired visual impact and user experience. This flexibility is especially important in web design, where aesthetics play a significant role.
+
+4.Reusability: When background and text colors are separate, you can define reusable CSS classes or styles that apply specific color combinations. This can save you time and effort when styling multiple elements with the same colors.
