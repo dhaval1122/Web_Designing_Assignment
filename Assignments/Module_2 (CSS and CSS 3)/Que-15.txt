@@ -1,0 +1,36 @@
+Que.-> What are the external style sheets?
+
+Ans.-> External style sheets are separate files containing CSS code that is linked to HTML documents. This allows you to keep your styles separate from your HTML, promoting better organization and reusability across multiple pages. Here's how you can use external style sheets:
+
+1.Create a CSS File:
+Create a new file with a .css extension, for example, styles.css. In this file, you define your styles as you would with embedded styles.
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #3498db;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+2.Link the CSS File in HTML:
+In your HTML document, you link the external style sheet using the <link> element within the <head> section.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <h1>Hello, External Styles!</h1>
+    <p>This is a paragraph with styles applied from an external style sheet.</p>
+
+</body>
+</html>
+

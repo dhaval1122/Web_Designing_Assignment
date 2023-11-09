@@ -1,0 +1,27 @@
+Que.-> What are the media types allowed by CSS?
+
+Ans.-> CSS allows you to specify different styles for different media types, allowing your styles to adapt to different output devices. The media attribute is used in the <link> and @import rules to specify the media type for which the styles are intended. Here are some common media types:
+
+1.All (all): The default media type. Styles apply to all devices.
+Example:
+@media all {
+    /* Styles for all devices */
+}
+
+2.Print (print): Styles for printed pages.
+Example:
+@media print {
+    /* Styles for printed pages */
+}
+
+3.Screen (screen): Styles for screens, such as computer monitors and mobiles.
+Example:
+@media screen {
+    /* Styles for screens */
+}
+
+4.Speech (speech): Styles for screen readers that convert text to speech.
+Example:
+@media speech {
+    /* Styles for speech output */
+}

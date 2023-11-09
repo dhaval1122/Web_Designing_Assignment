@@ -1,0 +1,31 @@
+Que.-> What are the ways to integrate CSS as a web page?
+
+Ans.-> There are a few ways to integrate CSS into a web page:
+
+1.Inline CSS: You can use the style attribute within HTML tags to apply styles directly to individual elements. For example:
+<p style="color: blue; font-size: 16px;">This is a blue paragraph with a font size of 16 pixels.</p>
+
+2.Internal CSS: You can include CSS directly within the HTML document using the <style> element in the head section. 
+For example:
+<head>
+    <style>
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a blue paragraph with a font size of 16 pixels.</p>
+</body>
+
+3.External CSS: You can create a separate CSS file and link it to your HTML document using the <link> element in the head section. This is a more modular and maintainable approach, especially for larger projects.
+For example:
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+And in the styles.css file:
+p {
+    color: blue;
+    font-size: 16px;
+}

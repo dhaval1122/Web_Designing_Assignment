@@ -1,0 +1,21 @@
+Que.-> What is the rule set?
+
+Ans.-> A rule set in CSS consists of one or more selectors and a corresponding block of declarations. The selector identifies the HTML element or elements to which the style rules should apply, and the declarations within the block define the styles for those elements. The basic syntax of a CSS rule set is as follows:
+
+selector {
+    property1: value1;
+    property2: value2;
+    /* Additional properties and values */
+}
+
+1.Selector: Specifies the HTML element or elements to which the styles should be applied.
+
+2.Declaration Block: Enclosed in curly braces {}, contains one or more declarations. Each declaration consists of a property and its corresponding value, separated by a colon (:). Multiple declarations are separated by semicolons (;).
+
+Example:
+h1 {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+

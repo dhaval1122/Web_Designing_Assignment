@@ -1,3 +1,24 @@
 Que.-> How to center block elements using CSS1?
 
-Ans.-> 
+Ans.-> CSS1 (the first version of CSS) doesn't provide a specific property for centering block elements. However, there are some techniques you can use to achieve centering. Here are a couple of methods:
+
+1.Auto Margins:
+Use the margin property with auto values on left and right sides. This works if the width of the block element is less than the width of its containing element.
+Example:
+.center-block {
+    width: 50%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+2.Text-Align and Centering as Inline Block:
+If the block element is an inline-block or inline-level element, you can use the text-align property on the parent element and set text-align: center. This will center the inline-level elements inside.
+Example:
+.parent-container {
+    text-align: center;
+}
+
+.center-block {
+    display: inline-block;
+    /* Additional styles for the block element */
+}

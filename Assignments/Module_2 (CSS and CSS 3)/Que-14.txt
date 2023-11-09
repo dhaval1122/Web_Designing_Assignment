@@ -1,0 +1,29 @@
+Que.-> What is embedded style sheets?
+
+Ans.-> Embedded styles, also known as internal or embedded style sheets, involve placing your CSS directly within the HTML document using the <style> element. This allows you to define styles specific to that document. 
+For example:
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello, Embedded Styles!</h1>
+    <p>This is a paragraph with some styles applied.</p>
+
+</body>
+</html>
