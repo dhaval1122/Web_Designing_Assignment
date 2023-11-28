@@ -1,0 +1,26 @@
+@import url('font-face.css');
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#bgcolor
+{
+    width: 50%;
+    height: auto;
+    background-color: #1f1f1f;
+}
+.Content
+{
+    width: 100%;
+    height: auto;
+}
+.Content p
+{
+    font-family: SourceSansPro;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
