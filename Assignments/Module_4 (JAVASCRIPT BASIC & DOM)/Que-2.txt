@@ -1,0 +1,6 @@
+Que.-> What is the use of isNaN function?
+
+Ans.-> 
+The isNaN function in JavaScript is used to determine whether a value is NaN (Not-a-Number) or not. NaN is a special value in JavaScript that represents the result of an operation that cannot produce a meaningful numeric result. 
+
+-> For example, dividing zero by zero or attempting to convert a non-numeric string to a number can result in NaN.

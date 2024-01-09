@@ -1,0 +1,22 @@
+Que.-> What are undeclared and undefined variables?
+
+Ans.->
+1.Undeclared Variables:
+
+An undeclared variable is a variable that has been used in code without being formally declared (defined) using a declaration statement such as var, let, or const (depending on the programming language).
+If you try to use a variable without declaring it first, the interpreter or compiler may raise an error. Undeclared variables can lead to bugs and unexpected behavior in a program.
+
+Example:
+// Undeclared variable
+console.log(x);  // Error: x is not defined
+
+2.Undefined Variables:
+
+An undefined variable is a variable that has been declared but has not been assigned a value. In many programming languages, when a variable is declared but not initialized, its default value is often undefined.
+It's important to distinguish between undeclared and undefined variables. An undeclared variable hasn't been declared at all, while an undefined variable has been declared but doesn't currently have a value assigned to it.
+
+Example:
+// Declared but undefined variable
+var y;
+console.log(y);  // undefined
+

@@ -1,0 +1,5 @@
+Que.-> Which company developed JavaScript?
+
+Ans.-> JavaScript was developed by Netscape Communications Corporation, a company that played a significant role in the early days of the World Wide Web. The language was created by Brendan Eich in 1995. Initially, it was named "Mocha" and later "LiveScript" before finally being named JavaScript. 
+
+-> Netscape introduced JavaScript in its Navigator browser as a scripting language to make web pages more dynamic and interactive. JavaScript has since become one of the most widely used programming languages for web development and is supported by all major web browsers.
