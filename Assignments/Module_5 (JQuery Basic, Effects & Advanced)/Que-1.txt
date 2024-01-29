@@ -1,0 +1,16 @@
+Que.-> What is jQuery?
+
+Ans.-> jQuery is a fast, small, and feature-rich JavaScript library designed to simplify the client-side scripting of HTML.
+-> jQuery makes it easier to navigate and manipulate the Document Object Model (DOM), handle events, create animations, and perform AJAX (Asynchronous JavaScript and XML) requests.
+
+Key features of JQuery:
+
+1.DOM Manipulation: jQuery provides a simplified syntax for DOM manipulation, making it easier to select and manipulate HTML elements.
+
+2.Event Handling: jQuery simplifies the process of handling events, such as mouse clicks, keyboard interactions, and form submissions.
+
+3.Animation: jQuery includes built-in functions for creating animations, such as fading in/out, sliding up/down, and custom animations.
+
+4.Cross-browser Compatibility: jQuery abstracts away many of the differences between web browsers, making it easier to write code that works consistently across various browsers.
+
+5.Plugins: jQuery has a rich ecosystem of plugins that extend its functionality, allowing developers to add additional features and capabilities to their web applications.
