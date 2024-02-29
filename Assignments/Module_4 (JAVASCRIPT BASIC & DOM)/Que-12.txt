@@ -1,0 +1,33 @@
+Que.-> How can you convert the string of any base to an integer in JavaScript?
+
+Ans.-> To convert a string representing a number in any base to an integer in JavaScript, you can use the parseInt function. The parseInt function takes two arguments: the string to be converted and the radix (base) of the numeral system.
+
+-> Syntax: parseInt(string, radix);
+
+-> The parseInt method parses a value as a string and returns the first integer.
+-> A radix parameter specifies the number system to use:
+    2 = binary, 8 = octal, 10 = decimal, 16 = hexadecimal.
+-> If radix is omitted, JavaScript assumes radix 10. If the value begins with "0x", JavaScript assumes radix 16.
+-> If the first character cannot be converted, NaN is returned.
+-> Leading and trailing spaces are ignored.
+-> Only the first integer found is returned.
+
+-> Example: <script>
+document.getElementById("demo").innerHTML =
+parseInt("10") + "<br>" +
+parseInt("10.00") + "<br>" +
+parseInt("10.33") + "<br>" +
+parseInt("34 45 66") + "<br>" +
+parseInt("   60   ") + "<br>" +
+parseInt("40 years") + "<br>" +
+parseInt("He was 40");
+</script>
+
+O/P: 
+10
+10
+10
+34
+60
+40
+NaN

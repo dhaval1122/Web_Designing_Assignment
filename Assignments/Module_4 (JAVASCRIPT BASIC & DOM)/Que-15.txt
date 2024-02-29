@@ -1,0 +1,25 @@
+Que.-> What is the use of Void (0)?
+
+Ans.-> The void operator is used to evaluate an expression and returns the undefined. Generally, this operator is used for obtaining the undefined primitive value. It is often used with hyperlinks. Usually the browser refreshes the page or loads a new page on clicking a link. The javascript:void(0) can be used when we don't want to refresh or load a new page in the browser on clicking a hyperlink.
+
+-> We can use the operand 0 in two ways that are void(0) or void 0. Both of the ways work the same. The JavaScript:void(0) tells the browser to "do nothing" i.e., prevents the browser from reloading or refreshing the page. It is useful when we insert links that have some important role on the webpage without any reloading. So, using void(0) on such links prevents the reloading of the page but allows to perform a useful function such as updating a value on the webpage.
+
+-> It is also used to prevent unwanted redirecting of the page.
+
+-> Example:
+<html>
+<body>
+
+<h2>The void Operator</h2>
+
+<p>
+<a href="javascript:void(0);">Useless link</a>
+</p>
+
+<p>
+<a href="javascript:void(document.body.style.backgroundColor='red');">
+Click me to change the background color of body to red.</a>
+</p>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+Que.-> What are all the looping structures in JavaScript?
+
+Ans.-> JavaScript provides several looping structures to iterate over data or execute a block of code repeatedly. Here are the main looping structures in JavaScript:
+
+1) for Loop:
+The for loop is a common and versatile loop that allows you to specify initialization, condition, and iteration expressions in a single line.
+
+-> Syntax: for (initialization; condition; iteration) {
+    // code to be executed
+}
+-> Example: for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+2) while Loop:
+The while loop continues to execute a block of code as long as the specified condition evaluates to true.
+
+-> Syntax: while (condition) {
+    // code to be executed
+}
+-> Example: let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+
+3) do...while Loop:
+Similar to the while loop, but the condition is checked after the block of code is executed, ensuring that the code inside the loop is executed at least once.
+
+-> Syntax: do {
+    // code to be executed
+} while (condition);
+-> Example: let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
+
+4) for...in Loop:
+Used to iterate over the enumerable properties of an object. It is generally used with objects, and the loop variable represents the property name.
+
+-> Syntax: for (variable in object) {
+    // code to be executed
+}
+-> Example: const obj = { a: 1, b: 2, c: 3 };
+for (let key in obj) {
+    console.log(key, obj[key]);
+}
+
+5) for...of Loop:
+Introduced in ECMAScript 6, this loop is used to iterate over iterable objects (arrays, strings, etc.). It provides a simpler syntax compared to for...in and directly accesses the values, not the keys.
+
+-> Syntax: for (variable of iterable) {
+    // code to be executed
+}
+-> Example: const array = [1, 2, 3];
+for (let value of array) {
+    console.log(value);
+}

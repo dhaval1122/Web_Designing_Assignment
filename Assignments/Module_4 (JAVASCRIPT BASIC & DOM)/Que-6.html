@@ -1,3 +1,25 @@
 <!-- Que.-> Write the code for adding new elements dynamically? -->
 
 <!-- Ans.->  -->
+<html>
+   <body>
+      <div id="container">
+      <!-- Newly created elements will be appended here -->
+   </div>
+   <button onclick="createNewElement()">Create Element</button>
+
+   <script>
+      function createNewElement() {
+      // Create a new paragraph element
+      var newParagraph = document.createElement('p');
+
+      // Set the text content of the paragraph
+      newParagraph.textContent = 'This is a dynamically created paragraph.';
+
+      // Append the paragraph to the container div
+      var container = document.getElementById('container');
+      container.appendChild(newParagraph);
+      }
+   </script>
+   </body>
+</html>

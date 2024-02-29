@@ -1,0 +1,21 @@
+Que.-> What is the function of the delete operator?
+
+Ans.-> In JavaScript, the delete Operator’s main purpose is to remove a property from an object.
+
+-> Syntax: delete object
+// or
+delete object.property
+// or
+delete object['property']
+
+-> Example: let emp = { 
+    firstName: "Raj", 
+    lastName: "Kumar", 
+    salary: 40000 
+} 
+ 
+console.log(delete emp.salary);
+console.log(emp);
+
+O/P: true
+{ firstName: 'Raj', lastName: 'Kumar' }

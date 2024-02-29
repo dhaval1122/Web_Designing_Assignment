@@ -1,3 +1,16 @@
 Que.-> What is === operator?
 
-Ans.-> 
+Ans.-> The === operator is a strict equality operator used in some programming languages, including JavaScript. It is also referred to as the "strict equality" or "identity" operator. The purpose of === is to compare both the value and the data type of two operands.
+
+In JavaScript, for example:
+
+== (loose equality) compares the values for equality after performing type coercion if needed.
+=== (strict equality) compares the values and the types without performing type coercion.
+
+Example:
+
+let x = 5;
+let y = "5";
+
+console.log(x == y);  // true (loose equality, value is the same after coercion)
+console.log(x === y); // false (strict equality, value is the same, but types are different)

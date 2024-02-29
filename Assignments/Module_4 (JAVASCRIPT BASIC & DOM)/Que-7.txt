@@ -1,0 +1,27 @@
+Que.-> What is the difference between ViewState and SessionState?
+
+Ans.-> 
+
+1.Scope:
+
+ViewState: ViewState is used to persist state information of a single page across postbacks. It stores data on the client side, typically in a hidden field, and is sent back and forth between the server and the client with each request and response.
+
+SessionState: SessionState is used to persist data across multiple pages in a user session. It stores data on the server side, and the data is associated with a particular user's session. SessionState allows you to store and retrieve data for the duration of a user's interaction with the application.
+
+2.Storage Location:
+
+ViewState: Stored on the client side, usually in a hidden field within the HTML output of the page.
+
+SessionState: Stored on the server side, either in-process within the ASP.NET process, in an external state server, or in a database.
+
+3. Performance:
+
+ViewState: Can increase the size of the page, leading to increased bandwidth usage and slower page loads, especially when large amounts of data are stored.
+
+SessionState: Generally has less impact on page size, but storing large amounts of data in the session can impact server memory and performance.
+
+4. Security:
+
+ViewState: Because it's stored on the client side, it can potentially be tampered with by users. ASP.NET provides mechanisms to ensure data integrity, such as ViewState MAC (Message Authentication Code).
+
+SessionState: Stored on the server side, making it more secure compared to ViewState. However, the security of SessionState depends on proper session management and protection against session hijacking.

@@ -1,0 +1,13 @@
+Que.-> What are the disadvantages of using innerHTML in JavaScript?
+
+Ans.-> Disadvantages of using innerHTML property in JavaScript:
+
+-> The use of innerHTML very slow: The process of using innerHTML is much slower as its contents as slowly built, also already parsed contents and elements are also re-parsed which takes time.
+
+-> Event Handler Overwriting:
+
+Assigning new HTML content using innerHTML may lead to the unintentional removal of existing event handlers attached to elements. If you're dynamically updating content that contains elements with event listeners, you might need to reattach those listeners after setting innerHTML.
+
+-> Accessibility Challenges:
+
+Dynamically updating content with innerHTML may create challenges in maintaining accessibility. Screen readers may not interpret dynamically added content correctly, and it might be necessary to manually update ARIA attributes and roles.
