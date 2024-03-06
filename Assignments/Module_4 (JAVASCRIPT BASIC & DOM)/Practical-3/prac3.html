@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            border: 2px solid;
+            margin-top: 3%;
+        }
+        h2
+        {
+            margin-left: 2%;
+        }
+    </style>
+    <script>
+        function result() {
+            var c = parseInt(document.getElementById("C_lang").value);
+            var d = parseInt(document.getElementById("C++").value);
+            var data = parseInt(document.getElementById("database").value);
+            var h = parseInt(document.getElementById("html").value);
+            var s = parseInt(document.getElementById("css").value);
+            var p = parseInt(document.getElementById("php").value);
+            var j = parseInt(document.getElementById("java").value);
+
+            var res = c + d + data + h + s + p + j;
+            var f=res * (100/350);
+            document.getElementById("demo").innerHTML = "Total is: " + res + "/350";
+            document.getElementById("percentage").innerHTML = "Percentage is: " +Math.round(f) + "%";
+        }
+    </script>
+</head>
+<body>
+    <h2>Marksheet for Information Technology</h2>
+    <center>
+        <h4>Enter Marks</h4>
+        <form>
+            1.C Language &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="C Language" id="C_lang"><br><br>
+
+            2.C++ Language &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="C++" id="C++"><br><br>
+
+            3.Database &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="database" id="database"><br><br>
+
+            4.HTML &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="html" id="html"><br><br>
+
+            5.CSS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="css" id="css"><br><br>
+
+            6.PHP &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="php" id="php"><br><br>
+
+            7.Core Java &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="core_java" id="java"><br><br>
+
+            <button type="button" onclick="result()" style="padding: 10px 20px;">Result</button>
+
+            <p id="demo"></p>  
+            <p id="percentage"></p>
+        </form>
+    </center>
+</body>
+</html>
