@@ -1,0 +1,17 @@
+Que.-> What are the advantages of Bootstrap?
+
+Ans.-> Bootstrap, a popular front-end framework, offers several advantages:
+
+1.Responsive Design: Bootstrap provides a grid system and pre-designed classes for responsive layouts, ensuring that websites look great on various devices and screen sizes without the need for extensive custom coding.
+
+2.Time-Saving: Bootstrap's extensive library of components, such as buttons, forms, navigation bars, and more, allows developers to quickly prototype and build user interfaces without starting from scratch. This saves time during development.
+
+3.Customization: While Bootstrap offers ready-made components, it also allows for customization. Developers can easily modify the framework's variables, or even write custom CSS, to tailor the design to specific project requirements.
+
+4.Cross-Browser Compatibility: Bootstrap is designed to work seamlessly across different web browsers, reducing the need for extensive browser testing and ensuring a consistent user experience for all visitors.
+
+5.Community Support and Documentation: Bootstrap has a large community of developers who contribute to its development and provide support through forums, tutorials, and documentation. This makes it easier for developers to find solutions to common issues and learn new techniques.
+
+6.Updates and Maintenance: Bootstrap is regularly updated with new features, bug fixes, and improvements. By using Bootstrap, developers can take advantage of these updates to keep their projects up-to-date and secure.
+
+-> Overall, Bootstrap is a powerful tool that streamlines the development process, promotes consistency, and helps create responsive and visually appealing websites with less effort.
