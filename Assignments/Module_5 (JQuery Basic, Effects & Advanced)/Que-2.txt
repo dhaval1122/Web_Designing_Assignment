@@ -1,0 +1,47 @@
+Que.-> How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation?
+
+Ans.-> To apply CSS using jQuery, you can use the .css() method. To add and remove classes, you can use the .addClass() and .removeClass() methods, respectively. For jQuery animation, you can use methods like .animate() to create dynamic effects. Here's a basic overview of each:
+
+-> Applying CSS using jQuery:
+
+Syntax: $(selector).css(property, value);
+Example:
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").css("color", "red");
+        $("p").css("font-size", "20px");
+    });
+});
+
+-> Adding and Removing Classes using jQuery:
+ 
+Syntax: $(selector).addClass(className);
+Example:
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").addClass("highlight");
+    });
+});
+
+Syntax: $(selector).removeClass(className);
+Example:
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").removeClass("highlight");
+    });
+});
+
+-> jQuery Animation:
+
+Syntax: $(selector).animate({styles}, speed, easing, callback);
+Example:
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({
+            left: '250px',
+            opacity: '0.5',
+            height: '150px',
+            width: '150px'
+        });
+    });
+});
