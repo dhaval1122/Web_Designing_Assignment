@@ -1,0 +1,61 @@
+Que.-> In Bootstrap 4, what is flexbox?
+
+Ans.-> In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components. This box makes it easier to design flexible responsive layout structures without using float or positioning attributes.
+
+Example:
+<! DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title> Bootstrap 4 vertical Flex Box Example </title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>  
+</head>  
+<style>  
+h2 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: white;  
+  text-align: center;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+}  
+body {  
+    background-size: 400% 400%;  
+           margin: 2rem;  
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  
+    animation: gradient 15s ease infinite;  
+    height: 100vh;  
+}  
+@keyframes gradient {  
+    0% {  
+        background-position: 0% 50%;  
+    }  
+    50% {  
+        background-position: 100% 50%;  
+    }  
+    100% {  
+        background-position: 0% 50%;  
+    }  
+}  
+</style>  
+<body>   
+<div class="container mt-3">  
+  <h2> Bootstrap 4 Vertical Direction flexbox </h2>  
+  <p> Use .flex-column-reverse to reverse the vertical direction: </p>  
+  <div class="d-flex flex-column-reverse">  
+    <div class="p-2 bg-info"> Flex item 1 </div>  
+    <div class="p-2 bg-warning"> Flex item 2 </div>  
+    <div class="p-2 bg-primary"> Flex item 3 </div>  
+  </div>  
+</div>  
+</body>  
+</html>  

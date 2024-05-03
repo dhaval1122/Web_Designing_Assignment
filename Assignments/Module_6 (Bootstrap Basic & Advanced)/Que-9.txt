@@ -1,0 +1,10 @@
+Que.-> How can one create an alert in Bootstrap?
+
+Ans.-> Bootstrap provides an easy way to create predefined alert messages:
+
+-> Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+
+Example:
+<div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>

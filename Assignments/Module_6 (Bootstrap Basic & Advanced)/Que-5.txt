@@ -1,0 +1,15 @@
+Que.-> What is the difference between Bootstrap 4 and Bootstrap 5?
+
+Ans.-> Bootstrap 4 and Bootstrap 5 are both popular front-end frameworks for building responsive and mobile-first websites and web applications. While they share many similarities, Bootstrap 5 introduces several key changes and improvements compared to Bootstrap 4:
+
+1.jQuery Dependency: Bootstrap 4 relies on jQuery for some of its components and functionality, whereas Bootstrap 5 has dropped the jQuery dependency entirely. This reduces the overall file size and improves performance.
+
+2.Improved Customization: Bootstrap 5 introduces a more modular approach to CSS with the use of Sass variables and mixins. This makes it easier to customize and extend Bootstrap styles to match specific design requirements.
+
+3.New Components and Utilities: Bootstrap 5 includes several new components and utilities, such as the accordion component, off-canvas navigation, improved form controls, and updated spacing utilities.
+
+4.Dropped Browser Support: Bootstrap 5 drops support for Internet Explorer 10 and 11, focusing on modern browsers and improving support for newer CSS features.
+
+5.Improved Grid System: While the grid system fundamentals remain similar between Bootstrap 4 and Bootstrap 5, Bootstrap 5 introduces new grid classes like .row-cols for defining the number of columns per row.
+
+6.Enhanced Responsiveness: Bootstrap 5 further improves responsiveness with new grid breakpoints and updated utility classes for controlling visibility and spacing at different screen sizes.

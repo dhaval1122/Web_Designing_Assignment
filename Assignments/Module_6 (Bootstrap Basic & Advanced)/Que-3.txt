@@ -1,0 +1,16 @@
+Que.-> What are the default Bootstrap text settings?
+
+Ans.-> In Bootstrap, the default text settings are defined through various CSS classes. Here are some of the main ones:
+
+-> text-left: Aligns text to the left.
+-> text-center: Centers text horizontally.
+-> text-right: Aligns text to the right.
+-> text-justify: Justifies text.
+-> text-nowrap: Prevents text from wrapping to the next line.
+-> text-lowercase: Converts text to lowercase.
+-> text-uppercase: Converts text to uppercase.
+-> text-capitalize: Capitalizes the first letter of each word.
+-> font-weight-bold: Makes text bold.
+-> font-italic: Makes text italic.
+
+-> These classes can be applied to HTML elements to style text according to your requirements. Additionally, Bootstrap provides utilities for responsive typography, such as classes for adjusting text size based on viewport size.

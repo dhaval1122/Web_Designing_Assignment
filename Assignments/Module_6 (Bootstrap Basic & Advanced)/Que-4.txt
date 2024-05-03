@@ -1,0 +1,13 @@
+Que.-> What do you know about the Bootstrap Grid System?
+
+Ans.-> Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive.
+
+Key features of the Bootstrap Grid System include:
+
+1.Container: The grid layout in Bootstrap is built within a container. Containers provide a means to center and horizontally pad your site’s contents. Bootstrap offers two types of containers: .container (fixed-width) and .container-fluid (full-width).
+
+2.Rows and Columns: Bootstrap divides a web page into rows and columns. Rows are horizontal groups of columns, and they ensure proper alignment and padding. Columns are placed within rows, and their width can be specified using predefined grid classes (col-xx, col-sm-xx, col-md-xx, col-lg-xx, col-xl-xx). Columns always add up to 12 across the page, allowing for flexible and responsive layouts.
+
+3.Grid Classes: Bootstrap provides a set of grid classes to control the layout and responsiveness of content within columns. These classes can be used to specify the width of columns at different breakpoints (extra small, small, medium, large, and extra large). For example, col-6 specifies a column that spans six grid columns on all devices, while col-md-4 specifies a column that spans four grid columns on medium-sized devices and above.
+
+4.Responsive Design: One of the most powerful features of the Bootstrap Grid System is its support for responsive design. By using a combination of grid classes and breakpoints, developers can create layouts that adapt to various screen sizes and devices, providing a consistent user experience across desktops, tablets, and smartphones.
